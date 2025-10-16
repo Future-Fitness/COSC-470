@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "echo \"add eslint later\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mr/types": "workspace:*",
+    "expo": "^51.0.0",
+    "expo-router": "^3.5.22",
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
